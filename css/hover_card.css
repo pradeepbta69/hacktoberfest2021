@@ -1,10 +1,6 @@
-.h1{
-    text-align: center;
-    color: #ffa411;
-    text-decoration: underline;
-}
+/* container css */
 .container{
-    width: 1000px;
+    width: 999px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -15,14 +11,14 @@
     cursor: pointer;
 }
 .container .card .face{
-    width: 300px;
+    width: 299px;
     height: 200px;
-    transition: 0.5s;
+    transition: 0.4s;
 }
  
 .container .card .face.face1{
     position: relative;
-    background: rgb(71, 71, 71);
+    background: rgb(143, 130, 130);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +26,7 @@
     transform: translateY(100px);
 }
 .container .card:hover .face.face1{
-    background: #ffa411;
+    background: #ff1499;
     transform: translateY(0);
 }
 .container .card .face.face2{
@@ -54,7 +50,7 @@
 }
 .container .card .face.face1 .content{
     opacity: 0.2;
-    transition: 0.5s;
+    transition: 0.4s;
 }
  
 .container .card:hover .face.face1 .content{
@@ -75,4 +71,10 @@
 .container .card .face.face2 .content a:hover{
     background: #333;
     color: #fff;
+}
+.h1{
+    text-align: center;
+    color: #ffa411;
+    text-decoration: underline;
+    font-family: "Times New Roman", Times, serif;
 }
