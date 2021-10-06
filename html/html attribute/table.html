@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html>
+
+<head><title>Table tag</title></head>
+
+<body>
+    
+    <!-- cell paddding is used to specify the space between wall of table cell and content of table.
+    cell spacing is used to specify the space between adjacent cells of the table. -->
+    <table align="center" bgcolor="lightblue" border="1px" 
+       cellpadding="10px" cellspacing="10px"   >
+    <!-- A table is given a heading for describing the purpose of information stored in the table.Table heading is called table caption.
+    top is used to place the caption immediately above the table.
+    bottom is used to place the caption below the table.
+    -->
+    <caption align="right">
+        
+        Students Records
+        
+        </caption>
+        
+        <!-- TR stands for table row.the 'tr' tag is used to create a row of a table. -->
+        <tr bgcolor="Pink">
+            <th>Roll No</th>
+            <th>Name</th>
+            <th bgcolor="yellow">Total Marks</th>
+            <th>Grade</th>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>Asim Nazir</td>
+            <td>784</td>
+            <td>A</td>
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td>Nazia Khan</td>
+            <td>877</td>
+            <td>A+</td>
+        </tr>
+    
+    
+    </table>
+    <br/>
+    <!-- 'colspan' is used to divide a cell into more than one column.
+    'rowspan' is used to divide a cell into more than one row.-->
+    <table align="center" bgcolor="Orange" border="1px">
+    
+        <caption>Weather Report</caption>
+        <tr bgcolor="pink">
+            <th rowspan="2">Station</th>
+            <th colspan="2">Temperature</th>
+            <th rowspan="2">Humidity</th>
+            <th rowspan="2" bgcolor="yellow">Weather</th>
+        </tr>
+        <tr bgcolor="lightblue">
+            <th>Max</th>
+            <th>Min</th>
+        </tr>
+        <tr>
+            <td>Haroonabad</td>
+            <td>39</td>
+            <td>22</td>
+            <td>58%</td>
+            <td>Cloudy</td>
+        </tr>
+        <tr>
+            <td>Bahawalnagar</td>
+            <td>44</td>
+            <td>28</td>
+            <td>45%</td>
+            <td>Dry</td>
+        </tr>
+    
+    </table>
+    </body>
+
+
+</html>
