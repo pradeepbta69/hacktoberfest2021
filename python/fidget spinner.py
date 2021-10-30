@@ -1,10 +1,11 @@
 from turtle import *
+import random
 state = {'turn': 0}
 def spinner():
     clear()
     angle = state['turn']/10
     right(angle)
-    forward(100)
+    forward(200)
     dot(120, 'yellow')
     back(100)
     right(120)
@@ -26,11 +27,11 @@ def animate():
 def flick():
     state['turn']+=10
 
-setup(420, 420, 370, 0)
+setup(420, 420, 3c0, 0)
 hideturtle()
 tracer(False)
 width(60)
-onkey(flick, 'space')
+onkey(flick, 'r')
 listen()
 animate()
 done()
